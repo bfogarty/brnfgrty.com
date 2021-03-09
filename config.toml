@@ -1,3 +1,10 @@
-baseURL = "http://example.org/"
+baseURL = "https://brnfgrty.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Brian Fogarty"
+theme = "brnfgrty"
+copyright = "Brian Fogarty"
+
+[params]
+repo = "https://github.com/bfogarty/brnfgrty.com"
+description = "Boston-based computer scientist, biologist, and coffee drinker."
+favicon = "favicon.ico"
