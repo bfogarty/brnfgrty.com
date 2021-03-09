@@ -1,13 +1,13 @@
 <header>
   <nav>
     &gt;
-    {{ $currentPage := . }}
-    {{ range .Site.Menus.main }}
-    {{ if $currentPage.IsMenuCurrent "main" . }}
+    {{- $currentPage := . }}
+    {{- range .Site.Menus.main }}
+      {{- if $currentPage.IsMenuCurrent "main" . }}
         <span>{{ .Name }}</span>
-      {{ else }}
+      {{- else }}
         <span><a href="{{ .URL }}">{{ .Name }}</a></span>
-      {{ end }}
-    {{ end }}
+      {{- end }}
+    {{- end }}
   </nav>
 </header>

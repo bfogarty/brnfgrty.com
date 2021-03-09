@@ -3,7 +3,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>{{ block "title" . }}{{ with .Params.Title }}{{ . }} | {{ end }}{{ .Site.Title }}{{ end }}</title>
-  <meta name="description" content="{{ if .IsHome }}{{ $.Site.Params.description }}{{ else }}{{ .Description }}{{ end }}">
+  {{- with default $.Site.Params.description .Description }}
+  <meta name="description" content="{{ . }}">
+  {{- end }}
   {{ hugo.Generator }}
 
   <link rel="preconnect" href="https://fonts.gstatic.com">
