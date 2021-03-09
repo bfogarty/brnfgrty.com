@@ -1,0 +1,3 @@
+<footer>
+    <p>Copyright {{ with .Site.Copyright | default .Site.Title }}{{ . | safeHTML }}, {{ now.Year }}{{ end }}.{{ if .Site.Params.Repo }} See the <a href="{{ .Site.Params.Repo }}" target="_blank">code</a>.{{ end }}</p>
+</footer>

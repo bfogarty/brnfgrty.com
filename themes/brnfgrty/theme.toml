@@ -1,0 +1,9 @@
+name = "brnfgrty.com"
+license = "MIT"
+licenselink = "https://github.com/bfogarty/brnfgrty.com/blob/main/themes/brnfgrty/LICENSE"
+homepage = "https://github.com/bfogarty/brnfgrty.com/blob/main/themes/brnfgrty"
+min_version = "0.41.0"
+
+[author]
+  name = "Brian Fogarty"
+  homepage = "https://brnfgrty.com"
