@@ -7,4 +7,3 @@ copyright = "Brian Fogarty"
 [params]
 repo = "https://github.com/bfogarty/brnfgrty.com"
 description = "Boston-based computer scientist, biologist, and coffee drinker."
-favicon = "favicon.ico"
